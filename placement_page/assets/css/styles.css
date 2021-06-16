@@ -20,8 +20,18 @@
   margin: 8px 0px 4px 0px;
 }
 
+
+.sub-menu{
+  display: flex;
+}
+.sub-menu h5{
+  text-align: center;
+  margin: 0px 10% 0px 10%;
+  padding: 0px;
+}
+
 @media (min-width: 768px){
-  #col-exp-btn{
+  .sub-menu{
     display: none;
   }
   .card-header{
@@ -38,6 +48,9 @@
 @media (max-width: 768px){
   #icon-text{
     font-size: 20px;
+  }
+  #head-card{
+    display: none;
   }
   .card-header{
     display: none;
